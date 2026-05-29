@@ -1,4 +1,4 @@
-# extract_refs.py 使用说明
+# extract_refs_by_ckwx.py 使用说明
 
 ## 功能
 
@@ -10,7 +10,7 @@
 
 | 文件 | 说明 | 必需 |
 |------|------|------|
-| `extract_refs.py` | 本脚本 | 是 |
+| `extract_refs_by_ckwx.py` | 本脚本 | 是 |
 | `ckwx.txt` | 目标文献名列表，每行一个 | 是 |
 | `merged*.txt` | CNKI 合并数据（如 `merged-cnki-20260524-094107.txt`） | 是 |
 | `merged*.csv` | WOS 合并数据（如 `merged-wos-20260524-094024.csv`） | 是 |
@@ -21,7 +21,7 @@
 
 ```bash
 cd <文件所在目录>
-python extract_refs.py
+python extract_refs_by_ckwx.py
 ```
 
 ## 输出

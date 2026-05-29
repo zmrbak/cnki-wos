@@ -17,10 +17,10 @@ pip install python-docx
 
 ```bash
 # 方式一：命令行指定文件路径
-python extract_refs.py "论文文件名.docx"
+python extract_refs_to_ckwx.py "论文文件名.docx"
 
 # 方式二：直接运行，根据提示输入路径
-python extract_refs.py
+python extract_refs_to_ckwx.py
 ```
 
 ## 输出
@@ -30,7 +30,7 @@ python extract_refs.py
 ## 示例
 
 ```bash
-python extract_refs.py "生成式人工智能背景下本科毕业论文评价范式重构-江苏高教-20260529.docx"
+python extract_refs_to_ckwx.py "生成式人工智能背景下本科毕业论文评价范式重构-江苏高教-20260529.docx"
 ```
 
 输出：
